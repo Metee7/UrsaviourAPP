@@ -1,8 +1,4 @@
 import 'dart:io';
-
-import 'package:common_utils/common_utils.dart';
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart' hide Action;
 
 class App extends StatefulWidget {
@@ -51,7 +47,7 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Movie',
+      title: 'ursaviour app',
       debugShowCheckedModeBanner: false,
       theme: _lightTheme,
       darkTheme: _darkTheme,
